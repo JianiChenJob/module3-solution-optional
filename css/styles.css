@@ -1,0 +1,65 @@
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Header */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a {
+	color:#951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+/*Change the color of the borders around the buttons*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+/*Since the menu toggle is floated, everything else is kind of collapsing to the minimum height. This below line will fix that.*/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list hr {
+	margin-top: 0;
+  margin-bottom: 0;
+}
+
+#chicken, #beef, #sushi {
+  height: 700px;
+  background: #D3D3D3;
+  width: 100%;
+  padding: 20px;
+
+}
+.menu-item-description {
+  margin-top: 35px;
+}
+
+
